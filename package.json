@@ -1,6 +1,6 @@
 {
   "name": "sigignore",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Native extension for node to set sigterm handler to SIG_IGN",
   "main": "./sigignore.js",
   "types": "./sigignore.d.ts",

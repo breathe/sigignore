@@ -1,3 +1,3 @@
-const sigignore = require("bindings")("setSigignore");
+const sigignore = require("bindings")("setsigignore");
 
 exports.ignoreSigterm = sigignore.ignoreSigterm;
