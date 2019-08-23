@@ -7,12 +7,10 @@ created by execve:
 
 From - http://man7.org/linux/man-pages/man7/signal.7.html
 
-```
-       A child created via fork(2) inherits a copy of its parent's signal
-       dispositions.  During an execve(2), the dispositions of handled
-       signals are reset to the default; the dispositions of ignored signals
-       are left unchanged.
-```
+> A child created via fork(2) inherits a copy of its parent's signal
+> dispositions. During an execve(2), the dispositions of handled
+> signals are reset to the default; the dispositions of ignored signals
+> are left unchanged.
 
 Its not possible to set a signal handler to SIG_IGN from node using javascript. Hence this module.
 
@@ -21,7 +19,7 @@ Its not possible to set a signal handler to SIG_IGN from node using javascript. 
 ```javascript
 const sigignore = require("sigignore");
 
-// ignore
+// set SIGTERM to SIG_IGN
 sigignore.ignoreSigterm();
 ```
 

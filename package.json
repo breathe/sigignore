@@ -1,7 +1,7 @@
 {
   "name": "sigignore",
   "version": "1.0.0",
-  "description": "",
+  "description": "Native extension for node to set sigterm handler to SIG_IGN",
   "main": "sigignore.js",
   "private": false,
   "dependencies": {
@@ -11,7 +11,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/breathe/sigignore.git"
+  },
+  "author": "N Cohen",
   "license": "ISC",
   "gypfile": true
 }
