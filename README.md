@@ -17,10 +17,10 @@ Its not possible to set a signal handler to SIG_IGN from node using javascript. 
 ## How to use
 
 ```javascript
-const sigignore = require("sigignore");
+import { ignoreSigterm } from "sigignore";
 
 // set SIGTERM to SIG_IGN
-sigignore.ignoreSigterm();
+ignoreSigterm();
 ```
 
 ## Why
